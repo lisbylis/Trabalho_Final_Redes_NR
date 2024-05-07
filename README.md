@@ -6,9 +6,13 @@
 
 ## Atributos utilizados 
 Mn : Mês (1 - 12)
+
 Slat: Latitude inicial em Graus decimais (uma alternativa ao uso de graus, minutos e segundos).
+
 Slon: Longitude inicial em Graus decimais.
+
 Len: Comprimento em milhas
+
 Wid: Largura em jardas 
 
 ## Target
