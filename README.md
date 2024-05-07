@@ -48,8 +48,11 @@ Mn: Magnitude do Tornado (medida na escala Fujita até Janeiro de 2007 e a parti
 
 # Referências:
 [1] . https://www.kaggle.com/datasets/danbraswell/us-tornado-dataset-1950-2021 (dataset)
+
 [2] . https://pt.wikipedia.org/wiki/Tornado (o que são tornados?)
+
 [3] . https://www.bbc.com/portuguese/articles/crgqrz98d9lo (por que os Estados Unidos são tão afetados por tornados?)
+
 [4] . https://pt.wikipedia.org/wiki/Escala_Fujita_melhorada  (Escala Fujita Melhorada, o que é?)
 
 
