@@ -27,7 +27,7 @@ Padronizando e elucidando melhor o que antes era subjetivo e ambíguo, também a
 - EF4 : Velocidade entre 166 e 200mph - Danos Devastadores
 - EF5 : Velocidade maior que 200mph - Danos Catastróficos
   
-
+# Por dentro do Código
 ## Atributos utilizados 
 Mn : Mês (1 - 12)
 
