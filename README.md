@@ -29,7 +29,7 @@ Padronizando e elucidando melhor o que antes era subjetivo e ambíguo, também a
   
 # Por dentro do Código
 ## Atributos utilizados 
-Mn : Mês (1 - 12)
+Mo: Mês (1 - 12)
 
 Slat: Latitude inicial em Graus decimais (uma alternativa ao uso de graus, minutos e segundos).
 
