@@ -1,0 +1,1902 @@
+[I 2024-05-08 17:30:18,868] A new study created in memory with name: no-name-d600e143-a746-4e7f-9ffb-3e3be8bb640d
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:75: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 397   
+------------------------------------
+397       Trainable params
+0         Non-trainable params
+397       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:31:53,345] Trial 0 finished with value: 0.7314441883695154 and parameters: {'num_neuronios': 12, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.01895488192059832, 'optimizer': 'adam'}. Best is trial 0 with value: 0.7314441883695154.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 78    
+------------------------------------
+78        Trainable params
+0         Non-trainable params
+78        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:33:15,246] Trial 1 finished with value: 0.7625253945174495 and parameters: {'num_neuronios': 11, 'num_camadas': 1, 'ativacao': 'sigmoid', 'learning_rate': 0.0004352186863719465, 'optimizer': 'rmsprop'}. Best is trial 0 with value: 0.7314441883695154.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 29    
+------------------------------------
+29        Trainable params
+0         Non-trainable params
+29        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:34:38,353] Trial 2 finished with value: 0.8990186350514431 and parameters: {'num_neuronios': 4, 'num_camadas': 1, 'ativacao': 'relu', 'learning_rate': 0.045276365758181586, 'optimizer': 'adam'}. Best is trial 0 with value: 0.7314441883695154.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 36    
+------------------------------------
+36        Trainable params
+0         Non-trainable params
+36        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:36:03,613] Trial 3 finished with value: 0.7328864134441532 and parameters: {'num_neuronios': 5, 'num_camadas': 1, 'ativacao': 'sigmoid', 'learning_rate': 0.05009384458394524, 'optimizer': 'adam'}. Best is trial 0 with value: 0.7314441883695154.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 162   
+------------------------------------
+162       Trainable params
+0         Non-trainable params
+162       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:37:33,139] Trial 4 finished with value: 0.7417675373188148 and parameters: {'num_neuronios': 7, 'num_camadas': 3, 'ativacao': 'sigmoid', 'learning_rate': 0.0004062727495278013, 'optimizer': 'adam'}. Best is trial 0 with value: 0.7314441883695154.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 85    
+------------------------------------
+85        Trainable params
+0         Non-trainable params
+85        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:38:58,653] Trial 5 finished with value: 0.7297890574412897 and parameters: {'num_neuronios': 6, 'num_camadas': 2, 'ativacao': 'sigmoid', 'learning_rate': 0.09103442325299291, 'optimizer': 'rmsprop'}. Best is trial 5 with value: 0.7297890574412897.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 154   
+------------------------------------
+154       Trainable params
+0         Non-trainable params
+154       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:40:23,561] Trial 6 finished with value: 0.8988652759198075 and parameters: {'num_neuronios': 9, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.003143782993763299, 'optimizer': 'sgd'}. Best is trial 5 with value: 0.7297890574412897.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 78    
+------------------------------------
+78        Trainable params
+0         Non-trainable params
+78        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:41:46,513] Trial 7 finished with value: 0.7617243522547403 and parameters: {'num_neuronios': 11, 'num_camadas': 1, 'ativacao': 'sigmoid', 'learning_rate': 0.00042511165704163474, 'optimizer': 'rmsprop'}. Best is trial 5 with value: 0.7297890574412897.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 291   
+------------------------------------
+291       Trainable params
+0         Non-trainable params
+291       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:43:13,030] Trial 8 finished with value: 0.7296887266249061 and parameters: {'num_neuronios': 10, 'num_camadas': 3, 'ativacao': 'sigmoid', 'learning_rate': 0.03583269250412118, 'optimizer': 'rmsprop'}. Best is trial 8 with value: 0.7296887266249061.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 43    
+------------------------------------
+43        Trainable params
+0         Non-trainable params
+43        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:44:37,492] Trial 9 finished with value: 0.7725020935165428 and parameters: {'num_neuronios': 6, 'num_camadas': 1, 'ativacao': 'relu', 'learning_rate': 0.02543069822432659, 'optimizer': 'rmsprop'}. Best is trial 8 with value: 0.7296887266249061.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 519   
+------------------------------------
+519       Trainable params
+0         Non-trainable params
+519       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:46:03,226] Trial 10 finished with value: 0.9193887015884078 and parameters: {'num_neuronios': 14, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 1.997340989095565e-05, 'optimizer': 'sgd'}. Best is trial 8 with value: 0.7296887266249061.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 129   
+------------------------------------
+129       Trainable params
+0         Non-trainable params
+129       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:47:33,773] Trial 11 finished with value: 0.7338276958933296 and parameters: {'num_neuronios': 8, 'num_camadas': 2, 'ativacao': 'sigmoid', 'learning_rate': 0.0049420596845900595, 'optimizer': 'rmsprop'}. Best is trial 8 with value: 0.7296887266249061.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:49:03,179] Trial 12 finished with value: 0.7263699639114087 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.007927845727207138, 'optimizer': 'rmsprop'}. Best is trial 12 with value: 0.7263699639114087.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 657   
+------------------------------------
+657       Trainable params
+0         Non-trainable params
+657       Total params
+0.003     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:50:32,931] Trial 13 finished with value: 0.7236846093386838 and parameters: {'num_neuronios': 16, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.0061022057204075785, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:52:00,420] Trial 14 finished with value: 0.72817674967745 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.004099307037867734, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:53:29,030] Trial 15 finished with value: 0.7272158012872061 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0017028155338143008, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 519   
+------------------------------------
+519       Trainable params
+0         Non-trainable params
+519       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:54:57,168] Trial 16 finished with value: 0.8956381602958187 and parameters: {'num_neuronios': 14, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.007626954089457036, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:56:22,725] Trial 17 finished with value: 0.749196373683548 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 6.799937516705217e-05, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 456   
+------------------------------------
+456       Trainable params
+0         Non-trainable params
+456       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:57:54,618] Trial 18 finished with value: 0.7294348545266558 and parameters: {'num_neuronios': 13, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.0010772852576257641, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 17:59:23,153] Trial 19 finished with value: 0.8573324538957611 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.008658852596418819, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:00:47,266] Trial 20 finished with value: 0.7338428746672452 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.00016139572961655955, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:02:14,726] Trial 21 finished with value: 0.7272140401436265 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0014855948658142664, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:03:43,165] Trial 22 finished with value: 0.7299516283318813 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.013284311334374826, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 456   
+------------------------------------
+456       Trainable params
+0         Non-trainable params
+456       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:05:13,934] Trial 23 finished with value: 0.7272049908124602 and parameters: {'num_neuronios': 13, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.0023999655297429396, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 456   
+------------------------------------
+456       Trainable params
+0         Non-trainable params
+456       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:06:40,437] Trial 24 finished with value: 0.7313195761841826 and parameters: {'num_neuronios': 13, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.002405345619256978, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 456   
+------------------------------------
+456       Trainable params
+0         Non-trainable params
+456       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:08:11,299] Trial 25 finished with value: 0.7283313170699741 and parameters: {'num_neuronios': 13, 'num_camadas': 3, 'ativacao': 'relu', 'learning_rate': 0.009469178539797389, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 397   
+------------------------------------
+397       Trainable params
+0         Non-trainable params
+397       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:09:42,584] Trial 26 finished with value: 0.7305742665312372 and parameters: {'num_neuronios': 12, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.0005919658634342108, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 586   
+------------------------------------
+586       Trainable params
+0         Non-trainable params
+586       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:11:11,239] Trial 27 finished with value: 0.7275526310533087 and parameters: {'num_neuronios': 15, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.004548836073734402, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 586   
+------------------------------------
+586       Trainable params
+0         Non-trainable params
+586       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:12:40,634] Trial 28 finished with value: 0.8987054476535833 and parameters: {'num_neuronios': 15, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.0001850606708980887, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 397   
+------------------------------------
+397       Trainable params
+0         Non-trainable params
+397       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:14:13,485] Trial 29 finished with value: 0.7263047080974901 and parameters: {'num_neuronios': 12, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.022192504300802884, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 342   
+------------------------------------
+342       Trainable params
+0         Non-trainable params
+342       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:15:43,422] Trial 30 finished with value: 0.7306974882689217 and parameters: {'num_neuronios': 11, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.016525439113843216, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 456   
+------------------------------------
+456       Trainable params
+0         Non-trainable params
+456       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:17:17,546] Trial 31 finished with value: 0.7283399494641993 and parameters: {'num_neuronios': 13, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.01648871405254189, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 397   
+------------------------------------
+397       Trainable params
+0         Non-trainable params
+397       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:18:49,786] Trial 32 finished with value: 0.7298106065439011 and parameters: {'num_neuronios': 12, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.0069129214066524095, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 519   
+------------------------------------
+519       Trainable params
+0         Non-trainable params
+519       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:20:22,441] Trial 33 finished with value: 0.7310826211736536 and parameters: {'num_neuronios': 14, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.002266752421821335, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 291   
+------------------------------------
+291       Trainable params
+0         Non-trainable params
+291       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:21:51,097] Trial 34 finished with value: 0.7340725989431139 and parameters: {'num_neuronios': 10, 'num_camadas': 3, 'ativacao': 'relu', 'learning_rate': 0.09074180207579767, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 241   
+------------------------------------
+241       Trainable params
+0         Non-trainable params
+241       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:23:21,903] Trial 35 finished with value: 0.7332619878725836 and parameters: {'num_neuronios': 12, 'num_camadas': 2, 'ativacao': 'tanh', 'learning_rate': 0.028501901853526083, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 586   
+------------------------------------
+586       Trainable params
+0         Non-trainable params
+586       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:24:52,460] Trial 36 finished with value: 0.742632441311049 and parameters: {'num_neuronios': 15, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.05546065269635111, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 64    
+------------------------------------
+64        Trainable params
+0         Non-trainable params
+64        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:26:13,837] Trial 37 finished with value: 0.7319303870446907 and parameters: {'num_neuronios': 9, 'num_camadas': 1, 'ativacao': 'leaky_relu', 'learning_rate': 0.011489665499026885, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 210   
+------------------------------------
+210       Trainable params
+0         Non-trainable params
+210       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:27:43,696] Trial 38 finished with value: 0.7318393121123669 and parameters: {'num_neuronios': 11, 'num_camadas': 2, 'ativacao': 'relu', 'learning_rate': 0.0009405390336077777, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 46    
+------------------------------------
+46        Trainable params
+0         Non-trainable params
+46        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:29:12,247] Trial 39 finished with value: 0.7335628101820149 and parameters: {'num_neuronios': 3, 'num_camadas': 3, 'ativacao': 'tanh', 'learning_rate': 0.006075499163943757, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:30:38,872] Trial 40 finished with value: 0.730399551210708 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.020897338367097437, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:32:04,602] Trial 41 finished with value: 0.724330162496713 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.001526370558068721, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:33:29,308] Trial 42 finished with value: 0.729405426298371 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.000764354221921611, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 106   
+------------------------------------
+106       Trainable params
+0         Non-trainable params
+106       Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:34:55,301] Trial 43 finished with value: 0.7288072699588295 and parameters: {'num_neuronios': 15, 'num_camadas': 1, 'ativacao': 'leaky_relu', 'learning_rate': 0.0027778571666203723, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:36:21,580] Trial 44 finished with value: 0.7339396066698916 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'sigmoid', 'learning_rate': 0.003559077240535168, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:37:47,522] Trial 45 finished with value: 0.7251797666976006 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0015697896885185352, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:39:13,430] Trial 46 finished with value: 0.8912621048736867 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.00029007470889525356, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:40:39,833] Trial 47 finished with value: 0.728906446186677 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'sigmoid', 'learning_rate': 0.04684956697233203, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 106   
+------------------------------------
+106       Trainable params
+0         Non-trainable params
+106       Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:42:03,233] Trial 48 finished with value: 0.7292202488146414 and parameters: {'num_neuronios': 15, 'num_camadas': 1, 'ativacao': 'leaky_relu', 'learning_rate': 0.001400176855922855, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:43:27,823] Trial 49 finished with value: 0.896946318896844 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'relu', 'learning_rate': 1.148734632604491e-05, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:44:54,069] Trial 50 finished with value: 0.7248218329933745 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.006121826088168673, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:46:17,703] Trial 51 finished with value: 0.7289073366804667 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.011892704578252377, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:47:42,284] Trial 52 finished with value: 0.7266278453015667 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0048208171476257335, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:49:08,721] Trial 53 finished with value: 0.7342320322263319 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.027494629582602813, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:50:34,718] Trial 54 finished with value: 0.7289313815058934 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.001649635360933659, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:51:57,435] Trial 55 finished with value: 0.8900402026767228 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.006075503416264928, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:53:23,959] Trial 56 finished with value: 0.7260378691863446 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.003174571150153687, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 241   
+------------------------------------
+241       Trainable params
+0         Non-trainable params
+241       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:54:51,187] Trial 57 finished with value: 0.7343902620329102 and parameters: {'num_neuronios': 12, 'num_camadas': 2, 'ativacao': 'tanh', 'learning_rate': 0.0005939486630296775, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:56:18,442] Trial 58 finished with value: 0.7338585368219062 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'sigmoid', 'learning_rate': 0.003446117274560226, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 274   
+------------------------------------
+274       Trainable params
+0         Non-trainable params
+274       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:57:44,871] Trial 59 finished with value: 0.7294872500769721 and parameters: {'num_neuronios': 13, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0011469859018097058, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 106   
+------------------------------------
+106       Trainable params
+0         Non-trainable params
+106       Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 18:59:10,321] Trial 60 finished with value: 0.7335314849687812 and parameters: {'num_neuronios': 7, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0020904283039706304, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:00:35,202] Trial 61 finished with value: 0.7270957093440031 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.008457917450620196, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:01:58,072] Trial 62 finished with value: 0.7272228670073559 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0052523023214138325, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:03:23,771] Trial 63 finished with value: 0.7263688148725923 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0032334760739648133, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 274   
+------------------------------------
+274       Trainable params
+0         Non-trainable params
+274       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:04:49,450] Trial 64 finished with value: 0.726965477201973 and parameters: {'num_neuronios': 13, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0019620551686410697, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:06:13,584] Trial 65 finished with value: 0.7256509604227687 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.003053412777062772, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:07:43,650] Trial 66 finished with value: 0.8929924779716626 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0012347988340813123, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 85    
+------------------------------------
+85        Trainable params
+0         Non-trainable params
+85        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:09:09,815] Trial 67 finished with value: 0.736048802098285 and parameters: {'num_neuronios': 12, 'num_camadas': 1, 'ativacao': 'tanh', 'learning_rate': 0.0008510226280258679, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 274   
+------------------------------------
+274       Trainable params
+0         Non-trainable params
+274       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:10:38,551] Trial 68 finished with value: 0.726459646100987 and parameters: {'num_neuronios': 13, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0040895880645598695, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 181   
+------------------------------------
+181       Trainable params
+0         Non-trainable params
+181       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:12:05,645] Trial 69 finished with value: 0.7320870725152394 and parameters: {'num_neuronios': 10, 'num_camadas': 2, 'ativacao': 'relu', 'learning_rate': 0.0028836539157895834, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 210   
+------------------------------------
+210       Trainable params
+0         Non-trainable params
+210       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:13:33,774] Trial 70 finished with value: 0.7319446735677548 and parameters: {'num_neuronios': 11, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.00033415675778088476, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:15:01,943] Trial 71 finished with value: 0.7306014277612048 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.003018498952929274, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:16:26,465] Trial 72 finished with value: 0.7279801637675019 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0017931857161855487, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:17:56,556] Trial 73 finished with value: 0.7297943680381973 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.000632590037045944, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:19:26,526] Trial 74 finished with value: 0.7316444207844858 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.009979895878334616, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 274   
+------------------------------------
+274       Trainable params
+0         Non-trainable params
+274       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:20:51,794] Trial 75 finished with value: 0.7296603194192526 and parameters: {'num_neuronios': 13, 'num_camadas': 2, 'ativacao': 'tanh', 'learning_rate': 0.004082600513002383, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 309   
+------------------------------------
+309       Trainable params
+0         Non-trainable params
+309       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:22:20,694] Trial 76 finished with value: 0.729955546691368 and parameters: {'num_neuronios': 14, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.015314042750526643, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 586   
+------------------------------------
+586       Trainable params
+0         Non-trainable params
+586       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:23:49,512] Trial 77 finished with value: 0.7276252063667754 and parameters: {'num_neuronios': 15, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.0026446137696190812, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:25:18,178] Trial 78 finished with value: 0.7321217552088289 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'sigmoid', 'learning_rate': 0.007115602746921785, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 96    
+------------------------------------
+96        Trainable params
+0         Non-trainable params
+96        Total params
+0.000     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:26:45,548] Trial 79 finished with value: 0.7295623904722949 and parameters: {'num_neuronios': 5, 'num_camadas': 3, 'ativacao': 'leaky_relu', 'learning_rate': 0.036145819675169964, 'optimizer': 'adam'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 154   
+------------------------------------
+154       Trainable params
+0         Non-trainable params
+154       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:28:14,344] Trial 80 finished with value: 0.7691415380193076 and parameters: {'num_neuronios': 9, 'num_camadas': 2, 'ativacao': 'tanh', 'learning_rate': 0.02016759403307118, 'optimizer': 'sgd'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:29:41,999] Trial 81 finished with value: 0.7269871034518204 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.006154094541706489, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:31:06,595] Trial 82 finished with value: 0.7263083429252066 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.003560484600638318, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:32:34,453] Trial 83 finished with value: 0.7287685143897449 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.003507091528538233, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:34:03,360] Trial 84 finished with value: 0.7253563029869081 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0014454565758112822, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:35:30,621] Trial 85 finished with value: 0.7240659325939591 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0010571949329971617, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:36:55,223] Trial 86 finished with value: 0.7259685089838982 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.001448073199547505, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:38:23,140] Trial 87 finished with value: 0.7286398500985649 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0013474376620582027, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:39:53,014] Trial 88 finished with value: 0.7287582957034061 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0009949893701214135, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:41:18,292] Trial 89 finished with value: 0.7285581843343834 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0005160438647528637, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:42:48,825] Trial 90 finished with value: 0.727042709301909 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0016172249328062608, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:44:15,176] Trial 91 finished with value: 0.7270184142462306 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'relu', 'learning_rate': 0.0007403332835503436, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:45:42,525] Trial 92 finished with value: 0.7261201141004551 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0022862402098789885, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:47:07,641] Trial 93 finished with value: 0.7284372050757956 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0022322707382345583, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:48:32,837] Trial 94 finished with value: 0.7274208534094773 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.0012224728733015234, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:49:58,928] Trial 95 finished with value: 0.7271680395735831 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.001557838199986166, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:51:24,152] Trial 96 finished with value: 0.7373840261663269 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 5.979573973208763e-05, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:52:50,804] Trial 97 finished with value: 0.7281118623217098 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.00101426695202285, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 385   
+------------------------------------
+385       Trainable params
+0         Non-trainable params
+385       Total params
+0.002     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:54:17,683] Trial 98 finished with value: 0.726270327515028 and parameters: {'num_neuronios': 16, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.00207124750878568, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name | Type       | Params
+------------------------------------
+0 | rede | Sequential | 346   
+------------------------------------
+346       Trainable params
+0         Non-trainable params
+346       Total params
+0.001     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=50` reached.
+/home/gustavo23000/anaconda3/envs/rapid/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[I 2024-05-08 19:55:42,886] Trial 99 finished with value: 0.7273062767375256 and parameters: {'num_neuronios': 15, 'num_camadas': 2, 'ativacao': 'leaky_relu', 'learning_rate': 0.005184894242240656, 'optimizer': 'rmsprop'}. Best is trial 13 with value: 0.7236846093386838.
