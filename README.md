@@ -37,12 +37,16 @@ Slon: Longitude inicial em Graus decimais.
 
 Len: Comprimento em milhas
 
-Wid: Largura em jardas 
+Wid: Largura do tornado em jardas 
 
 ## Target
 Mn: Magnitude do Tornado (medida na escala Fujita até Janeiro de 2007 e a partir disso, medida na escala Fujita Aprimorada)
 
-
+## Como me orientar no git?
+- O conjunto de dados referentes ao nosso problema é representado pelo arquivo [tornado.cvs](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/tornado.csv) .
+- O arquivo [classes.py](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/classes.py) contém todas as classes e funções que utilizamos no notebook principal para montar a nossa rede neural.
+- Também deixamos no git, os jobs e scripts utilizados para rodar de fato a nossa rede neural, que podem ser encontrados nos arquivos: [job_gpu.sh](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/job_gpu.sh) , [trabalho_final_optuna_gpu.py](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/trabalho_final_optuna_gpu.py)
+- Toda a explicação de como foi utilizado esses arquivos está no próprio notebook final que contem os resultados e discussões.
 
 
 
@@ -54,6 +58,10 @@ Mn: Magnitude do Tornado (medida na escala Fujita até Janeiro de 2007 e a parti
 [3] . https://www.bbc.com/portuguese/articles/crgqrz98d9lo (por que os Estados Unidos são tão afetados por tornados?)
 
 [4] . https://pt.wikipedia.org/wiki/Escala_Fujita_melhorada  (Escala Fujita Melhorada, o que é?)
+
+[5]. Optimization for Deep Learning (Momentum, RMSprop, AdaGrad, Adam). Link: https://www.youtube.com/watch?v=NE88eqLngkg
+
+[6]. https://www.hackersrealm.net/post/normalize-data-using-max-absolute-min-max-scaling (Normalização por Máximo Absoluto)
 
 
 
