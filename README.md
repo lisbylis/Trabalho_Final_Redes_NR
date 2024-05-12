@@ -48,6 +48,14 @@ Mn: Magnitude do Tornado (medida na escala Fujita até Janeiro de 2007 e a parti
 - Também deixamos no git, os jobs e scripts utilizados para rodar de fato a nossa rede neural, que podem ser encontrados nos arquivos: [job_gpu.sh](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/job_gpu.sh) , [trabalho_final_optuna_gpu.py](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/trabalho_final_optuna_gpu.py)
 - Toda a explicação de como foi utilizado esses arquivos está no próprio notebook final que contem os resultados e discussões.
 
+# Hiperparâmetros
+Como sabemos, os hiperparâmetros são escolhidos antes do treinamento, durante a concepção da estrutura e comportamento do modelo. Dentre eles, se incluem o número de camadas de uma rede, a taxa de aprendizado, o otimizador usado para convergir uma determinada função de perda, o número de épocas, tamanho dos lotes e assim por diante.
+
+## Arquitetura da Rede Neural
+Foram utilizadas, no total, cerca de 100 arquiteturas.
+- Camadas Ocultas: de 1 a 3 camadas
+- Número de Neurônios por camada oculta: 3 a 16 neurônios
+
 ## Funções de Ativação utilizadas
 As funções de ativação são importantíssimas no desenvolvimento de uma rede neural. São elas que vão ser responsáveis por transmitir a informação através da combinação de pesos e entradas. Para o nosso modelo, utilizamos as seguintes:
 - ReLU: Introduz a propriedade de não linearidade em um modelo de deep learning e resolve o problema dos gradientes que desaparecem. Para o cálculo do backpropagation de redes neurais, a diferenciação para o ReLU é relativamente fácil. A única suposição que faremos é a derivada no ponto zero, que também será considerada zero.
@@ -55,6 +63,13 @@ As funções de ativação são importantíssimas no desenvolvimento de uma rede
 - Tangente Hiperbólico: A função de ativação tangente hiperbólica possui uso muito comum em redes neurais cujas saídas devem ser entre -1 e 1.
 - Leaky ReLU: Na função ReLU, o gradiente é 0 para x < 0, o que fez os neurônios morrerem por ativações nessa região. Leaky ReLU ajuda a resolver este problema. Em vez de definir a função Relu como 0 para x inferior a 0, definimos como um pequeno componente linear de x.
 
+## Otimizadores
+Os otimizadores vão atuar depois do backpropagation, quando inicia-se o ajuste dos pesos e viéses da rede neural com o objetivo de minimizar o erro na rede neural. No presente trabalho, utilizamos 3:
+- Descida do gradiente estocástico (SGD): Ao invés de atualizar os parâmetros do modelo após uma época, o SGD atualiza os pesos após cada batch.
+- RMSPROP e Adam: permitem com que a taxa de aprendizado seja atualizada conforme os dados são processados pela rede. Quando o gradiente encontrado é pequeno, a taxa de aprendizado assume um valor maior, passando mais rapidamente por regiões planas. Quando um gradiente grande é encontrado, indicando uma região mais inclinada no hiperplano de parâmetros, a taxa de aprendizado é reduzida de forma a convergir para a região de mínimo. O Adam nesse caso é bem parecido com o RMSPROP, porém utiliza algumas modificações e combinações de técnicas de outros otimizadores: como o momento e velocidade.
+
+## Optuna
+- O Optuna é uma biblioteca Python robusta e de código aberto desenvolvida para simplificar a otimização de hiperparâmetros em aprendizado de máquina. Ele oferece uma interface intuitiva para otimizar hiperparâmetros, permitindo explorar com eficiência o vasto espaço de pesquisa e determinar a configuração ideal para o seu modelo. A principal funcionalidade do Optuna reside na capacidade de pesquisar automaticamente os melhores hiperparâmetros por meio de vários algoritmos de otimização e estratégias de remoção.
 
 # Referências:
 [1] . https://www.kaggle.com/datasets/danbraswell/us-tornado-dataset-1950-2021 (dataset)
@@ -73,5 +88,5 @@ As funções de ativação são importantíssimas no desenvolvimento de uma rede
 
 [8]. https://www.deeplearningbook.com.br/funcao-de-ativacao/ (funções de ativação)
 
-
+[9]. https://medium.com/data-and-beyond/master-the-power-of-optuna-a-step-by-step-guide-ed43500e9b95 (Optuna)
 
