@@ -48,6 +48,12 @@ Mn: Magnitude do Tornado (medida na escala Fujita até Janeiro de 2007 e a parti
 - Também deixamos no git, os jobs e scripts utilizados para rodar de fato a nossa rede neural, que podem ser encontrados nos arquivos: [job_gpu.sh](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/job_gpu.sh) , [trabalho_final_optuna_gpu.py](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/trabalho_final_optuna_gpu.py)
 - Toda a explicação de como foi utilizado esses arquivos está no próprio notebook final que contem os resultados e discussões.
 
+## Funções de Ativação utilizadas
+As funções de ativação são importantíssimas no desenvolvimento de uma rede neural. São elas que vão ser responsáveis por transmitir a informação através da combinação de pesos e entradas. Para o nosso modelo, utilizamos as seguintes:
+- ReLU: Introduz a propriedade de não linearidade em um modelo de deep learning e resolve o problema dos gradientes que desaparecem. Para o cálculo do backpropagation de redes neurais, a diferenciação para o ReLU é relativamente fácil. A única suposição que faremos é a derivada no ponto zero, que também será considerada zero.
+- Sigmoide: A função de ativação sigmoide é comumente utilizada por redes neurais com propagação positiva (Feedforward) que precisam ter como saída apenas números positivos, em redes neurais multicamadas e em outras redes com sinais contínuos.
+- Tangente Hiperbólico: A função de ativação tangente hiperbólica possui uso muito comum em redes neurais cujas saídas devem ser entre -1 e 1.
+- Leaky ReLU: Na função ReLU, o gradiente é 0 para x < 0, o que fez os neurônios morrerem por ativações nessa região. Leaky ReLU ajuda a resolver este problema. Em vez de definir a função Relu como 0 para x inferior a 0, definimos como um pequeno componente linear de x.
 
 
 # Referências:
@@ -62,6 +68,10 @@ Mn: Magnitude do Tornado (medida na escala Fujita até Janeiro de 2007 e a parti
 [5]. Optimization for Deep Learning (Momentum, RMSprop, AdaGrad, Adam). Link: https://www.youtube.com/watch?v=NE88eqLngkg
 
 [6]. https://www.hackersrealm.net/post/normalize-data-using-max-absolute-min-max-scaling (Normalização por Máximo Absoluto)
+
+[7]. https://builtin.com/machine-learning/relu-activation-function (Função de Ativação ReLU)
+
+[8]. https://www.deeplearningbook.com.br/funcao-de-ativacao/ (funções de ativação)
 
 
 
