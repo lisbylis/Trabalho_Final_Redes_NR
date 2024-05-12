@@ -90,3 +90,5 @@ Os otimizadores vão atuar depois do backpropagation, quando inicia-se o ajuste 
 
 [9]. https://medium.com/data-and-beyond/master-the-power-of-optuna-a-step-by-step-guide-ed43500e9b95 (Optuna)
 
+[10]. https://medium.com/datarisk-io/tudo-que-voc%C3%AA-j%C3%A1-deveria-saber-sobre-otimiza%C3%A7%C3%A3o-de-hiperpar%C3%A2metros-em-redes-neurais-parte-i-f1d8975f0177 (Otimização)
+
