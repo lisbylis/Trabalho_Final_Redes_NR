@@ -2,7 +2,7 @@
 - Autores do projeto: Anelise Gonçalves Silva, Gustavo Uchoa Barros e Matheus Zaia Monteiro
 
 ## Descrição
-- Esse é o trabalho final da disciplina de Redes Neurais e Algoritmos Genéticos que tem como objetivo realizar a análise dos dados do dataset [tornado.cvs](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/tornado.csv) e buscar prever qual seria a magnitude de um determinado tornado através dos atributos selecionados.
+- Esse é o trabalho final da disciplina de Redes Neurais e Algoritmos Genéticos que tem como objetivo realizar a análise dos dados do dataset [tornado.csv](https://github.com/lisbylis/Trabalho_Final_Redes_NR/blob/main/tornado.csv) e buscar prever qual seria a magnitude de um determinado tornado através dos atributos selecionados.
 
 # Introdução Teórica 
 
