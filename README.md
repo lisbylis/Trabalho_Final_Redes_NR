@@ -69,7 +69,10 @@ Os otimizadores vão atuar depois do backpropagation, quando inicia-se o ajuste 
 - RMSPROP e Adam: permitem com que a taxa de aprendizado seja atualizada conforme os dados são processados pela rede. Quando o gradiente encontrado é pequeno, a taxa de aprendizado assume um valor maior, passando mais rapidamente por regiões planas. Quando um gradiente grande é encontrado, indicando uma região mais inclinada no hiperplano de parâmetros, a taxa de aprendizado é reduzida de forma a convergir para a região de mínimo. O Adam nesse caso é bem parecido com o RMSPROP, porém utiliza algumas modificações e combinações de técnicas de outros otimizadores: como o momento e velocidade.
 
 ## Optuna
-- O Optuna é uma biblioteca Python robusta e de código aberto desenvolvida para simplificar a otimização de hiperparâmetros em aprendizado de máquina. Ele oferece uma interface intuitiva para otimizar hiperparâmetros, permitindo explorar com eficiência o vasto espaço de pesquisa e determinar a configuração ideal para o seu modelo. A principal funcionalidade do Optuna reside na capacidade de pesquisar automaticamente os melhores hiperparâmetros por meio de vários algoritmos de otimização e estratégias de remoção.
+- O Optuna é uma biblioteca Python robusta e de código aberto desenvolvida para simplificar a otimização de hiperparâmetros em aprendizado de máquina. Ele oferece uma interface intuitiva para otimizar hiperparâmetros, permitindo explorar com eficiência o vasto espaço de pesquisa e determinar a configuração ideal para o seu modelo. A principal funcionalidade do Optuna reside na capacidade de pesquisar automaticamente os melhores hiperparâmetros por meio de vários algoritmos de otimização e estratégias de remoção. No nosso caso, utilizamos o Optuna para buscar o melhor trial contendo os melhores hiperparâmetros para a nossa rede neural
+
+## Conclusão
+- Como utilizamos uma rede regressora, obtemos parâmetros de performance relativos a modelos regressores. Dessa forma, o RMSE obtido pode ser interpretado como unidades de magnitude, ou seja, o modelo erra o valor de magnitude de um tornado em 0.724 unidades de magnitude, em média.
 
 # Referências:
 [1] . https://www.kaggle.com/datasets/danbraswell/us-tornado-dataset-1950-2021 (dataset)
